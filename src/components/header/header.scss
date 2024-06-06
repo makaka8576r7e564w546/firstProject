@@ -1,0 +1,23 @@
+@mixin position(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.header{
+    height: 500px;
+    background: rgba(0, 0, 0, 0.4);
+@include position();
+}
+.crypto{
+    @include position();
+    max-width: 100px;
+    
+    border: 1px dashed black;
+   transition: 1s;
+    &:hover{
+        background: black;
+        color: white;
+    }
+}
