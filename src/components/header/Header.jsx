@@ -9,7 +9,7 @@ return (<>{elem.img_src}
 <p>{elem.__proto__.desc2}</p>
 <p>{elem.__proto__.__proto__.desc3}</p>
 <p>{elem.__proto__.__proto__.__proto__.desc4}</p> */}
-<p>{elem.desc}</p>
+
 <p>{elem.desc2}</p>
 <p>{elem.desc3}</p>
 <p>{elem.desc4}</p>
